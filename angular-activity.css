@@ -1,0 +1,40 @@
+.ng-activiy {
+  width:900px;
+  padding: 50px 0 0 100px;
+}
+.ng-activiy .date-block {
+  width: 12px;
+  height: 12px;
+  background-color: #eee;
+  margin: 2px;
+}
+.ng-activiy .date-block.empty {
+  background-color: transparent;
+}
+.ng-activiy .date-block .attach.left {
+  position: relative;
+  left: -50px;
+  top: -5px;
+}
+.ng-activiy .date-block .attach.top {
+  position: relative;
+  top: -30px;
+}
+.ng-activiy .date-block .attach span {
+  font-size: 12px;
+  color: #aaa;
+}
+.ng-activiy .scaleplate {
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+}
+.ng-activiy .scaleplate span {
+  padding: 0 10px;
+}
+.ng-activiy .scaleplate span.low {
+  color: #ededed;
+}
+.ng-activiy .scaleplate span.high {
+  color: #236427;
+}

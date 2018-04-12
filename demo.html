@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.bootcss.com/angular.js/1.6.9/angular.js"></script>
+    <script src="angular-activity.js"></script>
+    <link rel="stylesheet" href="angular-activity.css" type="text/css" />
+</head>
+<body>
+    <div ng-app="demo">
+        <div ng-controller="demoCtrl">
+            <ng-activity data=data></ng-activity>
+        </div>
+    </div>
+    <script>
+
+        var demo = angular.module("demo",['angular-activity']);
+        demo.controller("demoCtrl",['$scope',function($scope){
+            $scope.data = {
+                '2018-04-12':3,
+                '2018-03-28':4,
+                '2018-03-27':1,
+                '2018-03-26':3,
+                '2018-03-01':1,
+                '2018-02-03':5,
+                '2018-01-31':1,
+                '2018-01-01':2
+            };
+        }])
+    </script>
+</body>
+</html>
