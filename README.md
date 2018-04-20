@@ -3,6 +3,9 @@ An angularjs module to create the the activity graph which is similar to the git
 
 ![demo](https://mskimizd.github.io/2018/04/12/angular-activity/angular-activity.jpg)
 
+## Dependencies
+* [AngularJS](https://angularjs.org) (tested with 1.6.9)
+
 ## Usage
 
 ### Import Resource
